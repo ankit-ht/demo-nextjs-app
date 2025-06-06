@@ -34,7 +34,7 @@ export default function UsersPage() {
 
   return (
     <div style={{ padding: '2rem' }}>
-      <h1>User Management</h1>
+      <h1>User Managementt</h1>
 
       <form onSubmit={createUser} style={{ marginBottom: '1rem' }}>
         <input value={name} onChange={e => setName(e.target.value)} placeholder="Name" required />
